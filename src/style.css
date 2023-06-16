@@ -1,0 +1,36 @@
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    background-color:rgb(247, 128, 128);
+    font-family: 'Dosis', sans-serif;
+}
+
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    ;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:white;
+    font-weight: 600;
+    font-size:x-large;
+    
+}
+.content {
+    display: block;
+}
+
+.title{
+    font-size: 25px;
+    font-style: italic;
+    color:rgb(247, 128, 128) ;
+}
