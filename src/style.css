@@ -1,9 +1,9 @@
 body {
     line-height: 1.5;
     font-size: 16px;
-    background-color:rgb(250, 144, 144);
+    background-color:white;
     font-family: 'Tilt Prism', cursive;
-   
+
 }
 
 
@@ -12,36 +12,56 @@ img {
     vertical-align: middle;
     max-width: 100%;
     height: auto;
-    ;
+    padding-right: 13px;
+    
 }
 
 .container {
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color:white;
+    background-color:rgb(248, 164, 164);
     font-weight: 600;
     font-size:x-large;
     border-radius: 15px;
+    height: 125px;
     
 }
 .content {
     display: block;
     font-family: 'Dosis', sans-serif;
     padding-left: 18px;
+    color:white ;
+    
 }
 
 .title{
     font-size: 30px;
     font-style: italic;
-    color:rgb(247, 128, 128) ;
+    color:white ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
  
-.definition, .installation, .maintainance, .tips, .styling {
+.definition, .installation, .maintainance, .tips, .styling,.dit {
     font-size: larger;
     text-decoration: wavy;
     font-weight: 700;
 }
+
+
+
+a img {
+    width: 40px; /* adjust this value as needed */
+    height: 28px; /* adjust this value as needed */
+  }
+  
+  a {
+    display: inline-block;
+  }
+  
+  a:hover {
+    opacity:100;
+  }
+  
+  a:active {
+    opacity: 100;
+  }
