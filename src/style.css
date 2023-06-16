@@ -1,8 +1,9 @@
 body {
     line-height: 1.5;
     font-size: 16px;
-    background-color:rgb(247, 128, 128);
+    background-color:rgb(250, 144, 144);
     font-family: 'Tilt Prism', cursive;
+   
 }
 
 
@@ -23,7 +24,7 @@ img {
     background-color:white;
     font-weight: 600;
     font-size:x-large;
-    border-radius: 15%;
+    border-radius: 15px;
     
 }
 .content {
@@ -37,5 +38,10 @@ img {
     font-style: italic;
     color:rgb(247, 128, 128) ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-padding-left: -10px;
+}
+ 
+.definition, .installation, .maintainance, .tips, .styling {
+    font-size: larger;
+    text-decoration: wavy;
+    font-weight: 700;
 }
