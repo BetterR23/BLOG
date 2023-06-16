@@ -2,7 +2,7 @@ body {
     line-height: 1.5;
     font-size: 16px;
     background-color:rgb(247, 128, 128);
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Tilt Prism', cursive;
 }
 
 
@@ -23,14 +23,19 @@ img {
     background-color:white;
     font-weight: 600;
     font-size:x-large;
+    border-radius: 15%;
     
 }
 .content {
     display: block;
+    font-family: 'Dosis', sans-serif;
+    padding-left: 18px;
 }
 
 .title{
-    font-size: 25px;
+    font-size: 30px;
     font-style: italic;
     color:rgb(247, 128, 128) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding-left: -10px;
 }
